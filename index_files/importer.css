@@ -1,0 +1,336 @@
+body {
+  font-family: 'Raleway';
+  padding-bottom: 0;
+}
+.copyleft {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  margin: 0 3px 0 0;
+}
+.bgTransition {
+  webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.main-navbar {
+  margin-bottom: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 2000;
+  width: 100%;
+  padding: 8px 0;
+}
+.main-navbar a {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+.main-navbar a:hover {
+  text-decoration: none;
+}
+.carousel .item {
+  background-color: #000;
+}
+.carousel .item .background-image {
+  background-size: cover!important;
+  z-index: 0;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: .6;
+}
+.carousel-indicator {
+  bottom: 16px;
+}
+.carousel-caption {
+  top: 80px;
+}
+.carousel-caption h1 {
+  margin-top: 27px;
+  font-weight: 700;
+}
+.carousel-caption p {
+  font-size: 19px;
+}
+.carousel-caption .social-icons a {
+  width: 58px;
+  display: inline-block;
+  color: #fff;
+  margin: 0 8px;
+}
+.carousel-caption .fa {
+  border: 3px solid #fff;
+  width: 58px;
+  font-size: 30px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 50%;
+}
+.carousel-caption .btn-primary {
+  background-color: #CD2F33;
+  border-radius: 0;
+  border: 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.carousel-caption .btn-primary:hover {
+  background-color: #a42529;
+}
+.carousel-indicators li {
+  background-color: #fff;
+}
+.carousel-indicators .active {
+  background-color: #CD2F33;
+}
+.carousel-indicators li,
+.carousel-indicators .active {
+  border: 0;
+  height: 14px;
+  margin: 1px 3px;
+  width: 14px;
+}
+.btn-group .btn-lg {
+  height: 50px;
+  font-size: 16px;
+}
+.btn-group .btn.active,
+.btn-group .btn:hover,
+.btn-group .btn:focus {
+  background: #A2A2A2;
+  color: #ffffff;
+}
+.btn-group .btn.active span,
+.btn-group .btn:hover span,
+.btn-group .btn:focus span {
+  background-position: center bottom;
+}
+.btn.senado span {
+  display: inline-block;
+  background: url(../images/senado.png) center top no-repeat;
+  height: 30px;
+  width: 19px;
+  vertical-align: middle;
+}
+.btn.congreso span {
+  display: inline-block;
+  background: url(../images/congreso.png) center top no-repeat;
+  height: 17px;
+  width: 35px;
+  vertical-align: middle;
+}
+h2.ng-binding {
+  color: #9C9C9C;
+  font-size: 28px;
+}
+.representante {
+  background: #F4F4F4;
+  position: relative;
+  height: 280px;
+  margin-top: 6px;
+}
+.representante .panel-body {
+  color: #9C9C9C;
+  padding: 20px 15px 15px;
+  text-align: center;
+}
+.representante .avatar {
+  height: 77px;
+  margin: 0 auto 5px;
+  position: relative;
+  width: 77px;
+}
+.representante .avatar .partido {
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 15px 0;
+  position: absolute;
+  right: -17px;
+  top: -6px;
+  width: 43px;
+}
+.representante .social-media {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.representante .social-media .link {
+  color: #9C9C9C;
+  margin: 0 2px;
+}
+.representante .social-media .link .fa {
+  font-size: 24px;
+  border: 2px solid #9C9C9C;
+  padding: 4px 0;
+  border-radius: 50%;
+  width: 36px;
+}
+.representante .panel-body p {
+  font-size: 13px;
+  line-height: 1.4;
+}
+.representante .panel-body strong {
+  font-size: 15px;
+}
+.representante .button {
+  width: 85%;
+}
+.btn-blue {
+  display: block;
+  font-weight: 600;
+  margin: 0px auto 12px;
+  width: auto;
+}
+.massTweet.btn {
+  width: 140px;
+}
+.label.PRI {
+  background-color: #3f9310;
+}
+.label.PAN {
+  background-color: #0045ae;
+}
+.label.PRD {
+  background-color: #f8ce00;
+}
+.label.MC {
+  background-color: #FE5900;
+}
+.label.PT {
+  background-color: #e10109;
+}
+.label.PVEM {
+  background-color: #A0CF67;
+}
+.label.PANAL {
+  background-color: #00B3B5;
+}
+/* Angular-bootstrap */
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer;
+}
+.col-lg-4.tweets h2 {
+  background-color: #CD2F33;
+  padding: 9px 0 9px 42px;
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+}
+.col-lg-4.tweets ul {
+  background: #F5F5F5;
+}
+.col-lg-4.tweets ul li {
+  border-bottom: 4px solid #fff;
+  padding: 9px;
+  color: #888888;
+}
+.col-lg-4.tweets ul li .name {
+  color: #878586;
+  font-weight: bold;
+}
+.col-lg-4.tweets ul li a {
+  color: #888787;
+}
+.col-lg-4.tweets ul li img {
+  padding: 6px;
+}
+.col-lg-4.tweets ul li p {
+  margin-left: 60px;
+}
+footer {
+  background-color: #585858;
+}
+footer .container {
+  pading: 5px 0;
+}
+footer p,
+footer a {
+  color: #a0a0a0!important;
+  margin: 14px 0;
+}
+/*Footable*/
+.footable-row-detail-cell .footable-row-detail-name {
+  display: none;
+}
+@media all and (max-width: 1200px) {
+  .btn-group + .pull-right {
+    float: none!important;
+    margin-top: 8px;
+  }
+}
+@media all and (max-width: 1010px) {
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+}
+@media all and (max-width: 767px) {
+  .carousel-caption p {
+    font-size: 19px;
+  }
+  .container.marketing .text-justify,
+  .container.marketing .text-justify + p {
+    padding: 0 18px;
+  }
+}
+@media all and (max-width: 640px) {
+  .main-navbar a {
+    font-size: 36px;
+  }
+  .btn-group + .pull-right {
+    float: none!important;
+    margin-top: 8px;
+  }
+  .btn-group .btn-lg {
+    padding: 10px;
+  }
+  .carousel-caption {
+    top: 26px;
+  }
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
+  .carousel-caption p {
+    font-size: 19px;
+  }
+  .carousel-indicators {
+    bottom: 3px;
+  }
+  .carousel-caption .btn-primary {
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 460px) {
+  .carousel-indicators {
+    bottom: 0px;
+  }
+  .carousel-caption p {
+    font-size: 15px;
+  }
+}
+@media all and (max-width: 330px) {
+  .main-navbar a {
+    font-size: 28px;
+  }
+  .carousel-caption p {
+    font-size: 13px;
+  }
+  .carousel-caption .btn-primary {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .btn-group .btn-lg {
+    padding: 5px;
+  }
+}
